@@ -1,0 +1,115 @@
+#program1
+name = "shubhang trivedi"
+age = 19
+branch = "btech computer science"
+
+print("Name:", name)
+print("Age:", age)
+print("Branch:", branch)
+
+#program2
+a = 10
+b = 20
+
+temp = a
+a = b
+b = temp
+
+print("After swapping:")
+print("a =", a, " b =", b)
+
+#program3
+c = float(input("Enter temperature in Celsius: "))
+f = (c * 9/5) + 32
+print("Fahrenheit:", f)
+
+#program4
+a = float(input("Enter first number: "))
+b = float(input("Enter second number: "))
+
+print("Sum =", a + b)
+print("Difference =", a - b)
+print("Product =", a * b)
+print("Quotient =", a / b)
+
+#program5
+i = 10
+f = 12.5
+s = "Hello"
+lst = [1, 2, 3]
+tup = (4, 5, 6)
+st = {7, 8, 9}
+d = {"name": "Sukriti", "age": 21}
+
+print(type(i), type(f), type(s))
+print(type(lst), type(tup), type(st), type(d))
+
+#program6
+x = int(input("Enter first integer: "))
+y = int(input("Enter second integer: "))
+
+print("Addition =", x + y)
+print("Subtraction =", x - y)
+print("Multiplication =", x * y)
+print("Division =", x / y)
+print("Floor Division =", x // y)
+print("Modulus =", x % y)
+print("Power =", x ** y)
+
+#program7
+a = 10
+b = 12.8
+c = "25"
+
+print(float(a))   # int to float
+print(int(b))     # float to int
+print(int(c))     # string to int
+
+#program8
+text = input("Enter something: ")
+print(f"You entered: {text}")
+
+#program9
+print(abs(-12))
+print(pow(2, 5))
+print(min(3, 9, 1, 7))
+print(max(3, 9, 1, 7))
+
+#program10
+n = int(input("Enter a number: "))
+print("Binary:", bin(n))
+print("Octal:", oct(n))
+print("Hexadecimal:", hex(n))
+
+#program11
+numbers = [10, 20, 30, 40, 50]
+total = sum(numbers)
+avg = total / len(numbers)
+
+print("Sum =", total)
+print("Average =", avg)
+
+#program12
+info = {"name": "Sukriti", "age": 21, "course": "MCA"}
+print(info)
+
+#program13
+c = complex(input("Enter a complex number (a+bj): "))
+print("Real part:", c.real)
+print("Imaginary part:", c.imag)
+
+#program14
+print("Hello\nWorld")
+print("Name:\tSukriti")
+print("This is a backslash: \\")
+
+#program15
+length = float(input("Enter length: "))
+width = float(input("Enter width: "))
+
+area = length * width
+perimeter = 2 * (length + width)
+
+print("Area =", area)
+print("Perimeter =", perimeter)
+
